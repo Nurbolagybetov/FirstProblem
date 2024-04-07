@@ -3,13 +3,6 @@ package assignment1;
 import java.util.Scanner;
 
 public class FirstProblem {
-    /*
-    *This method returns the smallest number from an array.
-    *Time complexity: 0(n), where n is length of input array.
-    *Complexity class: linear
-    *@param arr The array of integers where we need to find smallest.
-    *@return minVal The smallest integer from the array
-     */
     public static void main(String[] args) {
         double startTime = System.nanoTime();
         double endTime = System.nanoTime();
@@ -24,6 +17,13 @@ public class FirstProblem {
         System.out.println("Time taken " + duration + " milliseconds");
         System.out.println("Minimum number is " + min);
     }
+    /*
+    *This method returns the smallest number from an array.
+    *Time complexity: 0(n), where n is length of input array.
+    *Complexity class: linear
+    *@param arr The array of integers where we need to find smallest.
+    *@return minVal The smallest integer from the array
+     */
     public static int findMin(int[] arr){
         if(arr.length == 0){
             System.out.println("Array is empty");
